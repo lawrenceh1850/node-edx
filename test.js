@@ -11,5 +11,6 @@ const log = require("./exports.js").logString;
 // console.log("process.env: ");
 // console.log(process.env);
 
-log("helloooo");
-log("rockefeller");
+// log("helloooo");
+// log("rockefeller");
+alert("hello");
