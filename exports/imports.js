@@ -1,4 +1,11 @@
+const log1 = require("./exports.js");
 const log = require("./exports.js").logString;
+const testData = require("./testData.json");
+
+console.log(log1);
+console.log(log);
+
+log(testData.name);
 
 // setTimeout(() => {
 //   console.log(process.cwd());
@@ -13,4 +20,4 @@ const log = require("./exports.js").logString;
 
 // log("helloooo");
 // log("rockefeller");
-alert("hello");
+// alert("hello");
