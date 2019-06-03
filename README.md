@@ -10,6 +10,15 @@
 - this
   - https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/
   - https://www.w3schools.com/js/js_this.asp
+- Types
+  - [symbols](https://hacks.mozilla.org/2015/06/es6-in-depth-symbols/)
+  - https://codeburst.io/javascript-essentials-types-data-structures-3ac039f9877b
+- callbacks
+  - http://callbackhell.com/
+- Promises
+  - http://techinpink.com/2017/02/24/introduction-to-javascript-promises/
+- Async/await
+  - https://scotch.io/tutorials/asynchronous-javascript-using-async-await
 
 ### Node specific features
 - streams
