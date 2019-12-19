@@ -41,12 +41,16 @@ function downloadPage(url) {
   } else {
     console.log(`Commencing download of ${url}`);
     let intervalID = printLoadingEffect(".", 10, 100);
-    http.get(url, res => {
-      processHTML(res);
-      res.on("end", () => {
-        clearInterval(intervalID);
+    http
+      .get(url, res => {
+        processHTML(res);
+        res.on("end", () => {
+          clearInterval(intervalID);
+        });
+      })
+      .on("error", err => {
+        console.error(err);
       });
-    });
   }
 }
 
